@@ -1,6 +1,6 @@
 # Football
 
-This is a simpler version of football included in David [Ahl's BASIC Computer Games](https://www.atariarchives.org/basicgames/). One player plays against the computer and has seven offensive plays in his/her playbook. I got the source from [Vintage BASIC's site](http://www.vintage-basic.net/bcg/ftball.bas) complete with a program error in line 1700. I can confirm the original listing included in the printed book has the correct syntax.
+This is a simpler version of football included in David [Ahl's BASIC Computer Games](https://www.atariarchives.org/basicgames/). One human plays against the computer and has seven offensive plays in his/her playbook. I got the source from [Vintage BASIC's site](http://www.vintage-basic.net/bcg/ftball.bas) complete with a program error in line 1700. I can confirm the original listing included in the printed book has the correct syntax.
 
 ## Variables and SUBroutines
 
@@ -45,7 +45,7 @@ Initialise score and in-game messages
 390 LET P=INT(RND(1)*2)
 400 PRINT O$(P);" WON THE TOSS"
 ```
-User-defined `FNF()` looks resolves to direction of play, so if 
+User-defined `FNF()` resolves to direction of play, so if 
 + `P=0` &rarr; `FNF(P) = 1`
 + `P=1` &rarr; `FNF(P) = -1`
 
