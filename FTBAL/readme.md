@@ -49,7 +49,7 @@ User-defined `FNF()` resolves to direction of play, so if
 + `P=0` &rarr; `FNF(P) = 1`
 + `P=1` &rarr; `FNF(P) = -1`
 
-User-defined `FNG()` always takes 1 as argument, whenever it is called
+User-defined `FNG()` always takes 1 as argument, whenever it is called, and calculates gain (or loss)
 
 ```
 410 DEF FNF(X)=1-2*P
